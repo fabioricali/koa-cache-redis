@@ -1,0 +1,26 @@
+{
+  "name": "koa-cache-redis",
+  "version": "0.0.0",
+  "description": "Redis cache for Koa",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "cache",
+    "redis",
+    "koa",
+    "memorize"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ioredis": "^4.11.2",
+    "mocha": "^6.2.0",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0"
+  }
+}
